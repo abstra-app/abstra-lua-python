@@ -6,6 +6,8 @@ authors = [
     {name = "Abstra", email = "support@abstracloud.com"}
 ]
 requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
 dependencies = []
 
 [project.urls]
