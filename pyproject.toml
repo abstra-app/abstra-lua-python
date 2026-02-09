@@ -1,6 +1,6 @@
 [project]
 name = "abstra-lua"
-version = "0.1.0"
+version = "0.0.1"
 description = "A sandboxed Lua 5.5 interpreter written in pure Python"
 authors = [
     {name = "Abstra", email = "support@abstracloud.com"}
@@ -9,10 +9,10 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.urls]
-repository = "https://github.com/abstra-app/pylua"
+repository = "https://github.com/abstra-app/abstra-lua-python"
 
-[tool.poetry.packages]
-include = "abstra_lua"
+[tool.poetry]
+packages = [{include = "abstra_lua"}]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
